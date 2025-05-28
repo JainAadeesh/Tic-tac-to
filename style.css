@@ -12,6 +12,10 @@
     height: auto;
     background-color: cadetblue;
   }
+
+  #heading{
+    margin-top: 60px;
+  }
   
   .container {
     height: 70vh;
@@ -82,8 +86,8 @@
   }
 
 
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
   .body{
     height: auto;
   }
-}
+  } */
