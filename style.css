@@ -80,3 +80,43 @@
   .box:hover{
     background-color: #fff;
   }
+
+
+  @media (max-width: 768px) {
+  .container {
+    height: auto;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .game {
+    height: 80vmin;
+    width: 80vmin;
+    gap: 2vmin;
+  }
+
+  .box {
+    height: 20vmin;
+    width: 20vmin;
+    font-size: 6vmin;
+  }
+
+  #reset-btn,
+  #new-btn {
+    padding: 0.75rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 10px;
+  }
+
+  #msg {
+    font-size: 6vmin;
+    text-align: center;
+  }
+
+  .msg-container {
+    gap: 2rem;
+    padding: 20px;
+  }
+}
