@@ -9,14 +9,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: auto;
+    height: 100vh;
     background-color: cadetblue;
   }
 
-  #heading{
-    margin-top: 60px;
+  .gamecontainer{
+    text-align: center;
   }
-  
+
   .container {
     height: 70vh;
     display: flex;
@@ -69,12 +69,12 @@
   }
   
   .msg-container {
-    height: 1000vmin;
+    height: 20vmin;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 4rem;
+    gap: 1rem;
   }
   
   .hide {
